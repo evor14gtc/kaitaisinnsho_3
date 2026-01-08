@@ -12,8 +12,8 @@ INSERT INTO m_user(
 	department_id,
 	role
 )VALUES
-('system@co.jp','password','システム管理者','2000-11-14',21,1,1,'ROLE_ADMIN'),
-('user@co.jp','password','ユーザー1','1938-12-17',84,2,2,'ROLE_GENERAL')
+('system@co.jp','$2a$10$jYk.pqU4dcc6FIDKpXB2Bu0i.87su01PGxlIEPplAT7z8nlekrkbG','システム管理者','2000-11-14',21,1,1,'ROLE_ADMIN'),
+('user@co.jp','$2a$10$jYk.pqU4dcc6FIDKpXB2Bu0i.87su01PGxlIEPplAT7z8nlekrkbG','ユーザー1','1938-12-17',84,2,2,'ROLE_GENERAL')
 ;
 
 /*部署マスタ*/
